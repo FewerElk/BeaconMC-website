@@ -1,0 +1,22 @@
+body{
+
+    background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+    
+h{
+    font-family: 'Black Ops One', system-ui;
+    font-family: 'Poppins', sans-serif;
+
+}
+}
+markthisimportant{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0)
+    
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    background-image: linear-gradient(to right top, #0066ff, #00a1ff, #00c6eb, #00e087, #a8eb12);
+}
