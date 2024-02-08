@@ -1,6 +1,6 @@
 body{
 
-    background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+    background: linear-gradient(90deg, rgb(220, 231, 67) 0%, rgb(23, 123, 218) 100%);
     
 h{
     font-family: 'Black Ops One', system-ui;
@@ -19,4 +19,10 @@ p{
 }
 button{
     background-image: linear-gradient(to right top, #0066ff, #00a1ff, #00c6eb, #00e087, #a8eb12);
+}
+
+li
+{
+    margin-left: 45%;
+    font-size: 17px;
 }
