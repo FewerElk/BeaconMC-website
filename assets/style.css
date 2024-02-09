@@ -1,7 +1,8 @@
 body{
 
     background: linear-gradient(90deg, rgb(220, 231, 67) 0%, rgb(23, 123, 218) 100%);
-    
+    margin-left: 5%;
+    margin-right: 5%;
 h{
     font-family: 'Black Ops One', system-ui;
     font-family: 'Poppins', sans-serif;
@@ -25,4 +26,28 @@ button{
 {
     margin-left: 45%;
     font-size: 17px;
+}
+
+.nav
+{
+    background-color: #a8eb12;
+    padding: 5px;
+    border-style: double;
+    border-color:rgb(0, 0, 0);
+}
+
+img
+{
+    padding: 5px;
+}
+
+#icon-home-bmc
+{
+    background-color: white;
+    margin-right: 25%;
+}
+
+#github-logo
+{
+    background-color: black;
 }
