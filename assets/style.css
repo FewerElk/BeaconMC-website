@@ -131,3 +131,43 @@ img
 {
     background-color: black;
 }
+
+.button-doc {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: block;
+    border-radius: 30px;
+    background-image: linear-gradient(to right top, #0066ff, #00a1ff, #00c6eb, #00e087, #a8eb12);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 500px;
+  }
+  
+  .button-doc span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-doc span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-doc:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-doc:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
